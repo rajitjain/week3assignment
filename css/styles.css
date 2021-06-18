@@ -1,13 +1,13 @@
 body {
   
-  font-size: 16px;
+  font-size: 15px;
   color: #c2492f;
   background-color: #ffb3b3;
   font-family: 'Oxygen', sans-serif;
   
 }
 
-/** HEADER **/
+/**** HEADER ****/
 #header-nav {
   background-color: #ff8080;
   border-radius: 0;
@@ -22,13 +22,15 @@ body {
 
 
 
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { /**** Restaurant name ****/
+
+
   
   color: #557c3e;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
+  text-shadow: 1px 1px 0px #444;
   margin-top: 0;
   margin-bottom: 0;
   float: left;  
@@ -60,17 +62,15 @@ body {
 
 
 
-/* Section */
+/**** Section ****/
+
 #top {
-  margin-bottom: 30px;
-  
+  margin-bottom: 25px;  
 }
 
-.row {
-  
+.row {  
   position: relative;
   float: left;
-
 }
 
 .row > div > article {
@@ -84,6 +84,6 @@ body {
 }
 
 
-/* End Section */
+/**** End Section ****/
 
 
